@@ -7,8 +7,10 @@ deploy:
 build:
   local:
     push: false
+  # googleCloudBuild:
+  #   projectId: unique-caldron-355411
   artifacts:
-    - image: vinay91098/auth
+    - image: us.gcr.io/unique-caldron-355411/auth
       context: auth
       docker:
         dockerfile: Dockerfile

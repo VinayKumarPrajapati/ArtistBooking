@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: auth
-          image: vinay91098/auth
+          image: us.gcr.io/unique-caldron-355411/auth
 ---
 apiVersion: v1
 kind: Service
