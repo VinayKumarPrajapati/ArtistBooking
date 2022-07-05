@@ -27,3 +27,16 @@ Events:-
  6. ShowTicketCreated
  7. ShowTicketUpdated
  8. PaymentCreated
+ 
+ Auth:- 
+
+Route                         Method    Body        
+/api/users/signup             POST      {email: String, Password: String}
+/api/users/signin             POST      {email: String, Password: String}
+/api/users/signout            POST      {}
+/api/users/current-user       GET       -
+
+
+
+
+
