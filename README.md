@@ -1,4 +1,4 @@
-# ArtistBooking
+# ArtistBooking Microservices
 
 Few of the feature it should support after completion of the Project
 
